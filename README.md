@@ -49,7 +49,7 @@ HTML文書が実際にブラウザ上でどう見えるかを知りたい場合�
 
 上記の例では`<p>`の部分が**開始タグ**、「CodeGrit is Fun!」の部分が**コンテンツ**、`</p>`の部分が**終了タグ**です。
 
-![HTML要素の例](./images/element.png)
+![HTML要素の例](https://firebasestorage.googleapis.com/v0/b/codegrit-188601.appspot.com/o/materials%2Fhtml-css%2Flesson1%2Felement.png?alt=media&token=d770eb66-65a4-477a-9936-a73f2ceccf19)
 
 ### 要素のネスト
 コンテンツにあたる部分には次のように別のHTML要素を入れることも出来ます。要素の中に別の要素を挟むことを**ネスト**と呼びます。またこの時、ネストされている要素のことをネストしている要素の**子要素**と呼びます。ネストしている要素はネストされている要素の**親要素**と呼びます。
@@ -103,7 +103,7 @@ HTML文書は基本的に以下の構造で記述されます。以下の例の�
 <!DOCTYPE HTML>
 <html>
   <head></head>
-  <body</body>>
+  <body</body>
 </html>
 ```
 
