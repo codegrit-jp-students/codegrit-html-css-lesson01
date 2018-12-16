@@ -23,6 +23,7 @@
 charsetはドキュメントの文字コードを設定するために利用します。日本語をHTML文書内で利用する場合charsetを設定しないとブラウザによっては文字化けが起こります。その為`utf-8`を設定してこれを防ぐ必要があります。
 
 ### title
+
 ```html
 <title>HTML/CSS入門</title>
 ```
@@ -31,6 +32,7 @@ titleはその名の通りドキュメントのタイトルを設定するため
 
 
 ### description
+
 ```html
 <meta name="description" content="HTML/CSS入門コースでは、HTMLとCSSの基礎、リスポンシブデザインなどを学び、Webページを自由にデザイン出来るようになることを目的としたコースです
   。">
@@ -49,6 +51,7 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 
 ## Body
+
 ### 文書構造
 
 新聞、雑誌などのメディアでは通常、タイトル、サブタイトルが来た後にその内容を説明していきます。Webサイト上でこれを表現するためHTMLでは様々なタグを利用します。
@@ -71,6 +74,7 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 `<p>`(**P**aragraph)要素は、通常の文章を書く場合に利用されます。
 
 例:
+
 ```html
 <p>この要素は、通常の文章を書く場合に利用されます。</p>
 ```
@@ -115,9 +119,10 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ul-2](./images/ul2.png)
 
-[サンプルコード](./samples/ul_sample.html)
+[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson01-sample-ul)
 
 ### `<ol>`
+
 `<ol>`(**O**rdered **L**ist)要素は順序のあるリストを表現するために利用します。各項目を記述するには`<li>`要素をネストします。`<ul>`要素と同様に`<ol>`要素内に`<ol>`要素をネストすることも可能です。
 
 例:
@@ -129,9 +134,10 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
   <li>改善</li>
 </ol>
 ```
+
 ![ol-1](./images/ol1.png)
 
-[サンプルコード](./samples/ol_sample.html)
+[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson01-sample-ol)
 
 また`type="i"`という属性を追加することでローマ数字を使うことが出来、`start`という属性を追加すると開始する数字を変更出来ます。
 
@@ -160,13 +166,15 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ボールド体](./images/b_i_u.png)
 
-[サンプルコード](./samples/b_i_u_comparison.html)
+[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson01-sample-biu)
 
 
 ### `<strong>` - ストロング
+
 `<b>`と同様に文字を太字にします。
 
 ### `<em>` - エンファシス
+
 `<b>`、`<strong>`と同様に文字を太字にします。
 
 ### セマンティックスタグとは
@@ -213,4 +221,3 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 - フッター
 
 フッターには`<footer>`というセマンティクスタグを利用します。ここには、例えばそのサイト内のリンクを記載したり、著作権表示などをします。
-

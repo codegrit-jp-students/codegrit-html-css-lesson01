@@ -94,7 +94,7 @@ HTML文書に画像を追加するには`<img>`要素を利用します。また
 
 ![テーブル1](./images/table1.png)
 
-[サンプルコード](./samples/table.html)
+[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson01-sample-table)
 
 ### `<table>`
 `<table>`要素はテーブルであることを明示するために書きます。

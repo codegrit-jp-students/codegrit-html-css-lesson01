@@ -28,7 +28,7 @@
 
 自分のパソコン上に、challenge1というフォルダを作って、その中に`index.html`というHTMLファイルを作成しましょう。index.htmlファイルには以下のスターターファイルの内容をコピーして下さい。
 
-- [index.html](./student/index.html)
+- [codegrit-html-css-ch01-starter](https://github.com/codegrit-jp-students/codegrit-html-css-ch01-starter)
 
 ## マイルストーン１
 
