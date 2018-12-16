@@ -1,8 +1,3 @@
-```
-ステータス: 公開
-タイプ: 学習教材
-```
-
 # 初めてのHTML
 
 ## 目的
@@ -103,7 +98,7 @@ HTML文書は基本的に以下の構造で記述されます。以下の例の�
 <!DOCTYPE HTML>
 <html>
   <head></head>
-  <body</body>
+  <body></body>
 </html>
 ```
 
@@ -125,22 +120,22 @@ HTML文書は基本的に以下の構造で記述されます。以下の例の�
 
 ```html
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title>HTML/CSS入門</title>
-  <meta name="description" content="HTML/CSS入門コースでは、HTMLとCSSの基礎、リスポンシブデザインなどを学び、Webページを自由にデザイン出来るようになることを目的としたコースです
-  。">
-  <meta property="og:site_name" content="CodeGrit">
-  <meta name="keywords" >
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link href="style.css" media="all" rel="stylesheet" type="text/css">
-  <script type="text/javascript" async src="empty.js"></script>
+  <meta name="description" content="HTML/CSS入門コースでは、HTMLとCSSの基礎、レスポンシブデザインなどを学び、Webページを自由にデザイン出来るようになることを目的としたコースです
+  。" />
+  <meta property="og:site_name" content="CodeGrit" />
+  <meta name="keywords" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="empty.js"></script>
 </head>
 ```
 
 ### charset
 
 ```html
-<meta charset="utf-8">
+<meta charset="utf-8" />
 ```
 
 charsetはドキュメントの文字コードを設定するために利用します。日本語をHTML文書内で利用する場合charsetを設定しないとブラウザによっては文字化けが起こります。その為`utf-8`を設定してこれを防ぐ必要があります。
@@ -155,7 +150,7 @@ titleはその名の通りドキュメントのタイトルを設定するため
 
 ### description
 ```html
-<meta name="description" content="HTML/CSS入門コースでは、HTMLとCSSの基礎、リスポンシブデザインなどを学び、Webページを自由にデザイン出来るようになることを目的としたコースです
+<meta name="description" content="HTML/CSS入門コースでは、HTMLとCSSの基礎、レスポンシブデザインなどを学び、Webページを自由にデザイン出来るようになることを目的としたコースです
   。">
 ```
 
@@ -164,8 +159,8 @@ GoogleやYahooなどで検索を行った際に検索結果にはタイトルと
 ### css/javascriptへのリンク
 
 ```html
-<link href="style.css" media="all" rel="stylesheet" type="text/css">
-<script type="text/javascript" async src="empty.js"></script>
+<link href="style.css" media="all" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="empty.js"></script>
 ```
 
 HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、これは管理が大変なことからアンチパターン(避けるべきパターン)とされています。通常はJavascriptやCSSはHTMLとは別で保存し、上記のようにそのファイルを読み込んで来るのが一般的です。ファイルの場所の指定方法などは次回のレッスンで説明します。
@@ -290,11 +285,11 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 `<b>`と同様に文字を太字にします。
 
 ### `<em>` - エンファシス
-`<b>`、`<strong>`と同様に文字を太字にします。
+文字を強調してイタリック体にします。
 
 ### セマンティックスタグとは
 
-上記の、`<strong>`と`<em>`を見て、同じように太字にするのなら`<b>`だけで良いのでは、と思った方もいるかと思います。なぜこのように3つの要素があるかというと、タグにはセマンティックタグと呼ばれるタグがあるためです。セマンティクスを日本語に直訳すると「意味論」で、このセマンティックタグはコンテンツの意味合いをより正確に表現するために利用します。セマンティックタグには例えば、ナビゲーションを表す`<nav>`、動画を表す`<video>`、ヘッダーを表す`<header>`、メインコンテンツを表す`<main>`などがあります。
+上記の、`<strong>`を見て、同じように太字にするのなら`<b>`だけで良いのでは、と思った方もいるかと思います。なぜこのように2つの要素があるかというと、タグにはセマンティックタグと呼ばれるタグがあるためです。セマンティクスを日本語に直訳すると「意味論」で、このセマンティックタグはコンテンツの意味合いをより正確に表現するために利用します。セマンティックタグには例えば、ナビゲーションを表す`<nav>`、動画を表す`<video>`、ヘッダーを表す`<header>`、メインコンテンツを表す`<main>`などがあります。
 
 ### `<strong>, <em>, <b>`の違い
 
@@ -360,12 +355,12 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ### 相対パスと絶対パス
 
-例えば指定したファイルが別のフォルダーの中に入っていたりする場合にどうやってその場所を指定するでしょう。その場所までの道のりのことをパス(Path)と呼びます。例えば、自分のサイトのURLが"http://mysite.com"だったとしましょう。今いる場所が"http://mysite.com/index"で、ここから"http://mysite.com/test/page"というページに移動するとします。この時、絶対パスは"http://mysite.com/test/page"となります。これを今いる場所を基準に考えるパスが相対パスです。例えば、今いる場所のことを相対パスでは`"./"`で表し、一段上のディレクトリのことを`"../"`で表します。同様に2段階上だと`"../../"`、3段階上なら`"../../../"`で表します。上記のURLの例だと`"./test/page"`で指定のページを表すことが出来ます。また、URLの場合は何もドメイン(ここでは"http://mysite.com")を書かなくてもブラウザがそのドメインからの相対パスを利用してくれるため、`href="test/page"`と書くことも出来ます。
+例えば指定したファイルが別のフォルダーの中に入っていたりする場合にどうやってその場所を指定するでしょう。その場所までの道のりのことをパス(Path)と呼びます。例えば、自分のサイトのURLが"http://mysite.com"だったとしましょう。今いる場所が  "http://mysite.com/index" で、ここから "http://mysite.com/test/page" というページに移動するとします。この時、絶対パスは"http://mysite.com/test/page" となります。これを今いる場所を基準に考えるパスが相対パスです。例えば、今いる場所のことを相対パスでは`"./"`で表し、一段上のディレクトリのことを`"../"`で表します。同様に2段階上だと`"../../"`、3段階上なら`"../../../"`で表します。上記のURLの例だと`"./test/page"`で指定のページを表すことが出来ます。また、URLの場合は何もドメイン(ここでは"http://mysite.com")を書かなくてもブラウザがそのドメインからの相対パスを利用してくれるため、`href="test/page"`と書くことも出来ます。
 
 | 種類          | 例 |
 | ------------- | -----:|
-| 相対パス     | "http://example.com/index" |
-| 接待パス   | "/index" |
+| 絶対パス     | "http://example.com/index" |
+| 相対パス   | "/index" |
 
 ## 画像
 
@@ -376,8 +371,11 @@ HTML文書に画像を追加するには`<img>`要素を利用します。また
 以下の例では同じディレクトリー内にある`sample.png`というファイルを相対パスを利用して指定しています。
 
 例:
+
 ```html
+
 <img src="./sample.png">
+
 ```
 
 ![sample](./images/sample.png)
@@ -387,8 +385,11 @@ HTML文書に画像を追加するには`<img>`要素を利用します。また
 インターネットスピードが遅い場合や、HTMLメールで画像非表示と設定されている場合があります。このような時に、画像の説明文をAlt属性で記載しておくと、画像の代わりにこの文章が表示されます。Altは"Alternative Text"の略で、日本語でそのまま「代わりの文書」という意味です。またGoogleなどの検索エンジンは画像を見ることが出来ないのでこのAltタグでコンテンツを判断します。
 
 例:
+
 ```html
+
 <img src="./sample.png" alt="この画像はサンプルです。">
+
 ```
 
 画像が読み込めない場合、次の画像のようにalt内のテキストが表示されます。
