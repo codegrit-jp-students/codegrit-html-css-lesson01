@@ -99,7 +99,7 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ul-1](./images/ul1.png)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/y9713g4s/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/y9713g4s/6/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 `<ul>`要素内に`<ul>`要素をネストすることも可能です。
 
