@@ -35,6 +35,8 @@ HTML文書が実際にブラウザ上でどう見えるかを知りたい場合�
 <p>CodeGrit is fun!</p>
 ```
 
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/6f0x2mek/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 上記の例では`<p>`の部分が**開始タグ**、「CodeGrit is Fun!」の部分が**コンテンツ**、`</p>`の部分が**終了タグ**です。
 
 ![HTML要素の例](./images/element.png)
