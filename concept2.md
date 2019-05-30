@@ -49,7 +49,6 @@ GoogleやYahooなどで検索を行った際に検索結果にはタイトルと
 
 HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、これは管理が大変なことからアンチパターン(避けるべきパターン)とされています。通常はJavascriptやCSSはHTMLとは別で保存し、上記のようにそのファイルを読み込んで来るのが一般的です。ファイルの場所の指定方法などは次回のレッスンで説明します。
 
-
 ## Body
 
 ### 文書構造
@@ -68,6 +67,8 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 ```
 
 ![heading-1](./images/heading.png)
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/nbamz34r/2/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### `<p>`
 
@@ -98,6 +99,8 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ul-1](./images/ul1.png)
 
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/y9713g4s/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 `<ul>`要素内に`<ul>`要素をネストすることも可能です。
 
 例:
@@ -119,7 +122,7 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ul-2](./images/ul2.png)
 
-[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson01-sample-ul)
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/6gx5t90e/2/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### `<ol>`
 
@@ -137,7 +140,7 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ol-1](./images/ol1.png)
 
-[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson01-sample-ol)
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/83wgzkbp/3/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 また`type="i"`という属性を追加することでローマ数字を使うことが出来、`start`という属性を追加すると開始する数字を変更出来ます。
 
@@ -153,6 +156,8 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ol-2](./images/ol2.png)
 
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/cx80pdbm/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 ### `<b>`,`<i>`,`<u>`
 
 `<b>`(**B**old)要素は文字を太字にしたい時、`<i>`(**I**talic)要素は文字をイタリック体にしたい時、`<u>`(**U**nderlined)要素は文字に下線を入れたい時に利用します。
@@ -166,8 +171,7 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ボールド体](./images/b_i_u.png)
 
-[サンプルコード](https://github.com/codegrit-jp-students/codegrit-html-css-lesson01-sample-biu)
-
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/Lm9j7gqb/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### `<strong>` - ストロング
 
