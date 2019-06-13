@@ -68,8 +68,6 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![heading-1](./images/heading.png)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/hj8Lzsyx/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
 ### `<p>`
 
 `<p>`(**P**aragraph)要素は、通常の文章を書く場合に利用されます。
@@ -99,8 +97,6 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ul-1](./images/ul1.png)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/68seywfL/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
 `<ul>`要素内に`<ul>`要素をネストすることも可能です。
 
 例:
@@ -122,8 +118,6 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ul-2](./images/ul2.png)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/u9bf81ez/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
 ### `<ol>`
 
 `<ol>`(**O**rdered **L**ist)要素は順序のあるリストを表現するために利用します。各項目を記述するには`<li>`要素をネストします。`<ul>`要素と同様に`<ol>`要素内に`<ol>`要素をネストすることも可能です。
@@ -140,11 +134,10 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ol-1](./images/ol1.png)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/9dc23hpu/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
 また`type="i"`という属性を追加することでローマ数字を使うことが出来、`start`という属性を追加すると開始する数字を変更出来ます。
 
 例:
+
 ```html
 <ol type="i" start="3">
   <li>プラン</li>
@@ -170,8 +163,6 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ボールド体](./images/b_i_u.png)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/o8mesfuk/2/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
 ### `<strong>` - ストロング
 
 `<b>`と同様に文字を太字にします。
@@ -179,6 +170,12 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 ### `<em>` - エンファシス
 
 `<b>`、`<strong>`と同様に文字を太字にします。
+
+### jsFiddleでも試してみよう
+
+読むだけでなく実際に試してみることで、より正確に早く知識が身につきます。jsFiddleのエディタ上で自分でも試してみましょう。
+
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/5sqdfy1w/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### セマンティックスタグとは
 
