@@ -99,7 +99,7 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ul-1](./images/ul1.png)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/68seywfL/1/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/68seywfL/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 `<ul>`要素内に`<ul>`要素をネストすることも可能です。
 
@@ -122,7 +122,7 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ul-2](./images/ul2.png)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/u9bf81ez/1/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/u9bf81ez/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### `<ol>`
 
@@ -140,7 +140,7 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ol-1](./images/ol1.png)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/9dc23hpu/1/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/9dc23hpu/1/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 また`type="i"`という属性を追加することでローマ数字を使うことが出来、`start`という属性を追加すると開始する数字を変更出来ます。
 
@@ -170,7 +170,7 @@ HTML文書には直接JavascriptやCSSを埋め込むことも出来ますが、
 
 ![ボールド体](./images/b_i_u.png)
 
-<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/o8mesfuk/2/embedded/html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="300" src="//jsfiddle.net/codegrit_hiro/o8mesfuk/2/embedded/html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ### `<strong>` - ストロング
 
